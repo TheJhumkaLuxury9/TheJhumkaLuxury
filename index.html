@@ -597,21 +597,24 @@
       border-radius:50%;
     }
 
-    /* Mobiljusteringer */
+    /* Mobiljusteringer - Stor logo og horisontal navigasjon */
     @media (max-width:640px){
-      .header-inner{ min-height:260px; padding:22px 0 30px }
-      .logo{ width:110px; height:110px }
-      .brand-name{ font-size:40px }
-      .tagline{ font-size:16px }
-      .nav{ width:100%; justify-content:center }
-    }
-    /* Mobilvennlig header og logo */
-    @media (max-width: 640px) {
-      .header-inner { min-height: 120px !important; padding: 10px 0 16px !important; }
-      .logo { width: 90px !important; height: 90px !important; }
-      .brand-name { font-size: 28px !important; }
-      .tagline { font-size: 13px !important; }
-      .nav { flex-direction: column; gap: 6px; font-size: 13px; }
+      .header-inner{ min-height:320px; padding:20px 0 25px; }
+      .logo{ width:200px !important; height:200px !important; }
+      .brand-name{ font-size:36px !important; }
+      .tagline{ font-size:16px !important; }
+      .nav{ 
+        width:100%; 
+        justify-content:center; 
+        flex-direction:row !important; 
+        gap:15px; 
+        font-size:14px;
+        margin-top:15px;
+      }
+      .nav a{
+        padding:8px 12px;
+        font-weight:600;
+      }
       #music-stop-btn { top: 8px !important; right: 8px !important; padding: 7px 12px !important; font-size: 13px !important; }
     }
     /* Responsiv gull-gren dekorasjon */
