@@ -1,0 +1,12 @@
+{
+  "name": "the-jhumka-luxury-tools",
+  "version": "1.0.0",
+  "description": "Tools for The Jhumka Luxury project: thumbnail generator",
+  "main": "scripts/generate-thumbs.js",
+  "scripts": {
+    "generate-thumbs": "node scripts/generate-thumbs.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.0"
+  }
+}

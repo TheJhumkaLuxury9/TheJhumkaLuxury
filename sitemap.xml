@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://example.com/TheJhumkaLuxury.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/details/jhumka-klassisk.html</loc>
+  </url>
+  <url>
+    <loc>https://example.com/details/jhumka-lotus.html</loc>
+  </url>
+  <url>
+    <loc>https://example.com/details/jhumka-temple.html</loc>
+  </url>
+  <url>
+    <loc>https://example.com/details/jhumka-kundan.html</loc>
+  </url>
+  <url>
+    <loc>https://example.com/details/jhumka-red-chain.html</loc>
+  </url>
+</urlset>

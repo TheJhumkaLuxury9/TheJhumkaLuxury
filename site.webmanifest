@@ -1,0 +1,11 @@
+{
+  "name": "The Jhumka Luxury",
+  "short_name": "Jhumka",
+  "start_url": "TheJhumkaLuxury.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#D4AF37",
+  "icons": [
+    { "src": "favicon.ico", "sizes": "48x48", "type": "image/x-icon" }
+  ]
+}

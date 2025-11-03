@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Om Symbol -->
+    <path d="M100,20 C130,20 150,40 150,70 C150,90 140,110 120,120
+             C140,130 150,150 150,170 C150,190 130,200 100,200
+             C70,200 50,190 50,170 C50,150 60,130 80,120
+             C60,110 50,90 50,70 C50,40 70,20 100,20Z" 
+          fill="none" 
+          stroke="#D4AF37" 
+          stroke-width="2"/>
+    <!-- Decorative dots -->
+    <circle cx="100" cy="70" r="5" fill="#D4AF37"/>
+    <circle cx="100" cy="170" r="5" fill="#D4AF37"/>
+</svg>

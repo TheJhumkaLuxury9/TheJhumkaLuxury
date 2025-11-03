@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Diya (Sacred Lamp) Pattern -->
+    <g transform="translate(100,100)">
+        <!-- Lamp Base -->
+        <path d="M-40,20 C-40,40 40,40 40,20 C40,0 -40,0 -40,20" 
+              fill="none" 
+              stroke="#D4AF37" 
+              stroke-width="2"/>
+        
+        <!-- Flame -->
+        <path d="M-5,-20 C-5,-40 5,-40 5,-20 C12,-30 0,-50 -10,-30 C-5,-35 -5,-20 -5,-20" 
+              fill="none" 
+              stroke="#D4AF37" 
+              stroke-width="1.5"/>
+        
+        <!-- Decorative Base -->
+        <path d="M-50,25 C-50,45 50,45 50,25" 
+              fill="none" 
+              stroke="#D4AF37" 
+              stroke-width="1"/>
+              
+        <!-- Decorative Patterns -->
+        <g transform="translate(-30,10)">
+            <path d="M-5,0 L5,0 M0,-5 L0,5" 
+                  stroke="#D4AF37" 
+                  stroke-width="0.5"/>
+        </g>
+        <g transform="translate(30,10)">
+            <path d="M-5,0 L5,0 M0,-5 L0,5" 
+                  stroke="#D4AF37" 
+                  stroke-width="0.5"/>
+        </g>
+    </g>
+</svg>

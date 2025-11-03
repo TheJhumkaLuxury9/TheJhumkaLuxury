@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="50" viewBox="0 0 300 50" xmlns="http://www.w3.org/2000/svg">
+    <!-- Traditional Temple Bell Border -->
+    <defs>
+        <pattern id="temple-bell" patternUnits="userSpaceOnUse" width="50" height="50">
+            <!-- Bell Shape -->
+            <path d="M25,10 
+                     C35,10 40,20 40,30
+                     C40,40 35,45 25,45
+                     C15,45 10,40 10,30
+                     C10,20 15,10 25,10"
+                  fill="none" 
+                  stroke="#D4AF37" 
+                  stroke-width="1"/>
+            <!-- Bell Top -->
+            <path d="M23,10 L27,10 L25,5 Z" 
+                  fill="none" 
+                  stroke="#D4AF37" 
+                  stroke-width="0.5"/>
+            <!-- Bell Bottom -->
+            <path d="M20,45 L30,45 M25,45 L25,48" 
+                  stroke="#D4AF37" 
+                  stroke-width="0.5"/>
+        </pattern>
+    </defs>
+    <rect width="300" height="50" fill="url(#temple-bell)" opacity="0.3"/>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Temple Arch Pattern -->
+    <path d="M400,10 
+             C500,10 600,50 650,100
+             C700,150 750,190 800,190
+             L800,200 L0,200
+             L0,190
+             C50,190 100,150 150,100
+             C200,50 300,10 400,10Z" 
+          fill="none" 
+          stroke="#D4AF37" 
+          stroke-width="2"/>
+    
+    <!-- Decorative Temple Details -->
+    <g transform="translate(400,100)" opacity="0.7">
+        <path d="M-350,90 L-320,90 L-335,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M-250,90 L-220,90 L-235,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M-150,90 L-120,90 L-135,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M-50,90 L-20,90 L-35,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M50,90 L80,90 L65,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M150,90 L180,90 L165,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M250,90 L280,90 L265,60 Z" stroke="#D4AF37" fill="none"/>
+        <path d="M350,90 L380,90 L365,60 Z" stroke="#D4AF37" fill="none"/>
+    </g>
+</svg>

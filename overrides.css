@@ -1,0 +1,79 @@
+/* Overrides to make the site brighter, more airy and professional */
+:root{
+    --brand-dark: #2b2b2b;
+    --brand-light: #FBF8F4;
+    --accent-gold: #D4AF37;
+}
+
+body{
+    background: var(--brand-light) !important;
+    color: var(--brand-dark) !important;
+}
+
+/* Navigation: more spacing and clear layout */
+nav .nav-container{
+    padding: 0 2rem;
+}
+
+.nav-links a{
+    color: var(--brand-dark) !important;
+    padding: 8px 6px;
+    border-radius: 6px;
+}
+
+.nav-links a:hover{
+    background: rgba(212,175,55,0.06);
+    color: var(--accent-gold) !important;
+}
+
+/* Header: reduce heavy borders and increase whitespace */
+header{
+    padding: 6rem 0 3rem !important;
+    border-bottom: 1px solid rgba(212,175,55,0.08) !important;
+}
+
+.logo-container .logo{
+    max-width: 240px;
+}
+
+.slogan{ font-size:1.6rem !important; letter-spacing:2px }
+
+.welcome-section{ padding:4rem 1.25rem !important }
+
+/* Product cards: softer shadows and pale background */
+.product-card{
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: 0 8px 20px rgba(30,30,30,0.06);
+}
+
+.product-info{ padding:1.6rem !important }
+
+.product-card h3{ color:var(--brand-dark); font-size:1.25rem }
+
+.price{ color: var(--accent-gold); font-size:1.2rem }
+
+/* Hover overlay lighter */
+.hover-overlay{ background: rgba(0,0,0,0.22) }
+
+/* Cart button less heavy */
+.cart-toggle{ box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important }
+
+/* Footer: make light and elegant */
+footer{
+    background: linear-gradient(180deg, #FBF8F4, #FFFDFB);
+    color: #444;
+    padding: 3rem 2rem 2rem !important;
+}
+
+.footer-decoration{ background: linear-gradient(45deg, #F0DFA0, #D4AF37) !important }
+
+.footer-section h3{ color: #5a4630 }
+
+.newsletter-form input{ border:1px solid rgba(0,0,0,0.06); padding:0.7rem }
+
+/* Responsive tweaks */
+@media (max-width:768px){
+    header{ padding-top:5rem }
+    .nav-container{ padding:0 1rem }
+}

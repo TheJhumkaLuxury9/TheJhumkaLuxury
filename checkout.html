@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Betaling – The Jhumka Luxury</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="checkout-page">
+    <main style="max-width:900px;margin:4rem auto;padding:1rem">
+        <h1 style="font-family:'Playfair Display',serif;color:#B4934C">Kassen</h1>
+        <p>Fullfør kjøpet ved å fylle inn kontakt- og leveringsinformasjon. Dette er en demo – ingen betaling skjer her.</p>
+        <section style="display:grid;grid-template-columns:1fr 320px;gap:2rem;margin-top:2rem">
+            <form id="checkout-form" style="background:#fff;padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06)">
+                <h3>Dine opplysninger</h3>
+                <label>Navn<br><input name="name" required style="width:100%;padding:8px;margin-top:6px"></label>
+                <label>E-post<br><input name="email" type="email" required style="width:100%;padding:8px;margin-top:6px"></label>
+                <label>Adresse<br><input name="address" required style="width:100%;padding:8px;margin-top:6px"></label>
+                <label>Tilleggsinfo (valgfritt)<br><textarea name="note" style="width:100%;padding:8px;margin-top:6px"></textarea></label>
+                <button type="submit" style="margin-top:12px;background:linear-gradient(45deg,#D4AF37,#B4934C);color:#fff;padding:12px;border-radius:8px;border:none">Bekreft ordre</button>
+            </form>
+            <aside style="background:#fff;padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(0,0,0,0.06);">
+                <h3>Ordresammendrag</h3>
+                <ul id="checkout-items" style="margin-top:8px"></ul>
+                <div style="margin-top:12px;display:flex;justify-content:space-between"><strong>Totalt:</strong><strong id="checkout-total">0 kr</strong></div>
+            </aside>
+        </section>
+    </main>
+    <script src="js/demo-cart.js"></script>
+</body>
+</html>
